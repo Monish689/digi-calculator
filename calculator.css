@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #668db6, #d6cde2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+div {
+    background-color: #2e3639;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+#result {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #587087;
+    box-shadow: inset 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+
+table {
+    width: 100%;
+}
+
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #be5f23, #d5581d);
+    box-shadow: 5px 5px 10px #b5404a03, -5px -5px 10px #c7565c;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+button:hover {
+    background: linear-gradient(145deg, #81da58, #9fc44d);
+    transform: scale(1.05);
+}
+
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: inset 3px 3px 7px #4cd6e6, inset -3px -3px 7px #5cb7b3;
+}
+
+
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16) {
+    background: linear-gradient(145deg, #ff9a9e, #fecfef);
+}
+
+button:nth-child(4):hover,
+button:nth-child(8):hover,
+button:nth-child(12):hover,
+button:nth-child(16):hover {
+    background: linear-gradient(145deg, #6c355b, #ff9a9e);
+}
+
+
+button:nth-child(14) {
+    background: linear-gradient(145deg, #ffd3b6, #ffaaa5);
+}
+
+button:nth-child(14):hover {
+    background: linear-gradient(145deg, #ffaaa5, #ffd3b6);
+}
+
+/* Equal Button */
+button:nth-child(15) {
+    background: linear-gradient(145deg, #f01212, #e5451e);
+}
+
+button:nth-child(15):hover {
+    background: linear-gradient(145deg, #8e3279, #368a5e);
+}
